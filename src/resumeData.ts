@@ -5,8 +5,8 @@ const resumeData = {
     "occupation":"Software Developer & Architect",
     "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and constructed software. I choose to work as a consultant for the wide variety of projects, ideas and people I get to work with. Having views like this from where I live on Bainbridge Island might be a factor too...",
     "image":"brian-hilst.jpg",
-    "bio":"I am a versatile, full-stack software engineer and architect.  My stack-of-choice is React JS/Native or iOS with a serverless backend running on Amazon Web Services.  Please see my full skill set below for more information.",
-    "contactmessage":"Contact me if you are looking for beautifully designed and constructed software at a fair price.",
+    "bio":"I am a versatile, full-stack software engineer and architect.  My specialty is responsive web and mobile applications running on AWS.  My stack-of-choice is React JS/Native or iOS with a serverless backend running on Amazon Web Services.  Please see my full skill set below for more information.",
+    "contactmessage":"Contact me if you are looking for beautifully designed and implemented software at a fair price.",
     "email": "brian@purposefulsoftware.com",
     "phone": "206-855-7927",
     "address":{
@@ -16,11 +16,11 @@ const resumeData = {
       "zip": "98110"
   },
   "website": "http://www.purposefulsoftware.com",
-    "resumedownload":"http://www.purposefulsoftware.com/resume",
+    "resumedownload":"Brian-Hilst-Resume.pdf",
     "social":[
     {
       "name":"facebook",
-      "url":"http://facebook.com/tim.baker.906",
+      "url":"http://facebook.com",
       "className":"fa fa-facebook"
     },
     {
@@ -30,7 +30,7 @@ const resumeData = {
     },
     {
       "name":"github",
-      "url":"http://github.com/tbakerx",
+      "url":"https://github.com/brianhilst",
       "className":"fa fa-github"
     },
     {
@@ -180,13 +180,9 @@ const resumeData = {
   "testimonials":{
   "testimonials":[
     {
-      "text":"Here you should add some nice things that someone has said about you.",
-      "user":"Joe Client"
+      "text":"It is a pleasure to work with someone with a great blend of technical prowess, attention to detail, and simple ability to embrace brand-new cutting edge technology to achieve business objectives. Brian has been a leader and incredible team player, helping us to get from conceptual ideation to MVP execution, making decisions along the way that will enable us to scale as a global platform. Highly recommend him for any development team or project.",
+      "user":"Brett Eddy - CEO at SnapGig Inc"
     },
-    {
-      "text":"That Brian Hilst must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-      "user":"Steve Wozniak... impersonator"
-    }
   ]
 }
 }
