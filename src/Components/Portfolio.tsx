@@ -1,11 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-class Portfolio extends Component {
+interface IPortfolioProps {
+  data: any
+}
+
+class Portfolio extends Component<IPortfolioProps> {
+
   render() {
+    const { data } = this.props
 
-    if(this.props.data){
-      var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
+    if (!data) {
+      return null
+    } else {
+      var projects = data.projects.map((projects: any) => {
+      var projectImage = 'images/portfolio/'+projects.image
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
@@ -26,20 +34,17 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
 
-      <div className="row">
-
-         <div className="twelve columns collapsed">
-
+        <div className="row">
+          <div className="twelve columns collapsed">
             <h1>Check Out Some of My Work</h1>
-
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+              {projects}
             </div>
           </div>
-      </div>
-   </section>
-    );
+        </div>
+      </section>
+    )
   }
 }
 
-export default Portfolio;
+export default Portfolio

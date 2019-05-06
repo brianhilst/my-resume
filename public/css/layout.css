@@ -213,6 +213,12 @@ ul#nav li.current a { color: #F06000; }
    height: 114px;
    border-radius: 100%;
 }
+#about .logo-pic {
+   position: relative;
+   width: 215px;
+   height: 45px;
+   margin-top: 50px;
+}
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
