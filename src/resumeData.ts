@@ -5,7 +5,7 @@ const resumeData = {
     "occupation":"Software Developer & Architect",
     "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and constructed software. I choose to work as a consultant for the wide variety of projects, ideas and people I get to work with. Having views like this from where I live on Bainbridge Island might be a factor too...",
     "image":"brian-hilst.jpg",
-    "bio":"I am a versatile, full-stack software engineer and architect.  My specialty is responsive web and mobile applications running on AWS.  My stack-of-choice is React JS/Native or iOS with a serverless backend running on Amazon Web Services.  Please see my full skill set below for more information.",
+    "bio":"I am a versatile, full-stack software engineer and architect.  My specialty is responsive web and mobile applications running on AWS.  My stack-of-choice is React JS/Native or iOS with a backend running on Amazon Web Services.  Please see my full skill set below for more information.",
     "contactmessage":"Contact me if you are looking for beautifully designed and implemented software at a fair price.",
     "email": "brian@purposefulsoftware.com",
     "phone": "206-855-7927",
@@ -35,7 +35,7 @@ const resumeData = {
     },
     {
       "name":"skype",
-      "url":"http://skype.com",
+      "url":"https://join.skype.com/invite/suYv7s6MIyUk",
       "className":"fa fa-skype"
     }
   ]
@@ -60,13 +60,13 @@ const resumeData = {
       "company":"SnapGig Inc - Spokane, WA",
       "title":"Software Architect and Senior Developer",
       "years":"2018 - Present",
-      "description":"Architect for a gig-economy startup. Designed and developed on a stack using React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS. A React Native app is in the works."
+      "description":"Architect and senior developer for a gig-economy startup. Designed and developed on a stack using React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS. A React Native app is in the works."
     },
     {
       "company":"Sears Home Services - Seattle, WA",
       "title":"Software Architect and Senior Developer",
       "years":"2015 - 2018",
-      "description":"Architected and built a native iOS app providing routing, navigation, service order management, service manuals, and other functionality for their 7000+ field technicians. Developed a web application for data management and analysis of the mobile app utilizing Angular, SpringData, Java."
+      "description":"Designed and built iOS apps providing routing, navigation, service order management, service manuals, and other functionality for their 7000+ field technicians. Developed a web application for management of the mobile app utilizing Angular, Spring Framework and Java."
     },
     {
       "company":"SamePage Health - Seattle, WA",
