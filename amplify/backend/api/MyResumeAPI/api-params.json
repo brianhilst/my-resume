@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/contact",
+            "lambdaFunction": "MyResumeContact",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "MyResumeAPI",
+    "apiName": "MyResumeAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "MyResumeContact"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "my-resume-20190506130606-authRole",
+        "unAuthRoleName": "my-resume-20190506130606-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "MyResumeContact",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

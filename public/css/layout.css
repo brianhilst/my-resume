@@ -893,7 +893,7 @@ call-to-action .button {
 	font-size: 13px;
 }
 #message-warning, #message-success {
-   display: none;
+    /*display: none;*/
 	background: #0F0F0F;
 	padding: 24px 24px;
 	margin-bottom: 36px;
@@ -908,7 +908,7 @@ call-to-action .button {
    margin-right: 10px;
 }
 #image-loader {
-   display: none;
+   /*display: none;*/
    position: relative;
    left: 18px;
    top: 17px;

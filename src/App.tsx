@@ -9,6 +9,10 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 import resumeData from './resumeData';
+import Amplify from 'aws-amplify'
+import aws_exports from './aws-exports'
+
+Amplify.configure(aws_exports);
 
 class App extends React.Component {
 
