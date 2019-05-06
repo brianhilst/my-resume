@@ -19,7 +19,7 @@ class App extends React.Component {
   constructor(props: any){
     super(props);
 
-    ReactGA.initialize('UA-110570651-1');
+    ReactGA.initialize('UA-139684090-1');
     ReactGA.pageview(window.location.pathname);
   }
 
