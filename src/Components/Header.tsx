@@ -46,7 +46,7 @@ class Header extends Component<IHeaderProps> {
             <h1 className="responsive-headline">
               <img className="logo-pic"  src={logopic} alt="Purposeful Logo" />
             </h1>
-            <h3>I'm {name}, a {city}, {state} based <span>{occupation}</span> doing business as <span style={{fontWeight:800, color:"#F06000"}}>{title}</span>. {description}.</h3>
+            <h3>I'm {name}, a {city}-based <span>{occupation}</span> doing business as <span style={{fontWeight:800, color:"#ff9b00"}}>{title}</span>. {description}</h3>
             <hr />
             <ul className="social">
               {networks}

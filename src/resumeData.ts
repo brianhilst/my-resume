@@ -3,7 +3,7 @@ const resumeData = {
     "title": "Purposeful Software",
     "name":"Brian Hilst",
     "occupation":"Software Developer & Architect",
-    "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and constructed software. I choose to work as a consultant for the wide variety of projects, ideas and people I get to work with. Having views like this from where I live on Bainbridge Island might be a factor too...",
+    "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and constructed software. I choose to work as a consultant for the wide variety of projects, ideas and people with which I get to work.",
     "image":"brian-hilst.jpg",
     "logo": "purposeful-logo.png",
     "bio":"I am a versatile, full-stack software engineer and architect.  My specialty is responsive web and mobile applications running on AWS.  My stack-of-choice is React JS/Native or iOS with a backend running on Amazon Web Services.  Please see my resume and full skill set below for more information.",
