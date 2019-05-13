@@ -105,42 +105,42 @@ const resumeData = {
     "skills":[
     {
       "name":"Software Design & Planning",
-      "description": "I practice iterative software design and implementation focused on getting an MVP (Minimum Viable Product) to market quickly to test the design and market in the real world.  I design for scale from the ground-up.  I recommend collaborative design tools such as LucidChart and InVision and lightweight project management tools such as Trello and Jira.",
+      "description": "I am skilled in design and planning of large-scale, enterprise systems as well as smaller web/mobile applications. I practice iterative software design and implementation focused on getting an MVP (Minimum Viable Product) to market quickly to test the design and market in the real world.  I believe in designing and testing for scale from the ground-up.  I utilize collaborative design tools such as LucidChart and InVision and project management tools such as Trello and Jira.",
       "level":"60%"
     },
     {
       "name":"Web Apps",
-      "description": "An effective web application is necessary to promote and convert visitors to customers. Mobile responsiveness is critical for most applications. My preferred frameworks are React JS or Angular for their broad community of support.",
+      "description": "An effective web application is necessary to promote and convert visitors to customers. Mobile responsiveness is critical for most applications. My preferred frameworks are React JS and Angular for their large developer community and broad support. I'm also experienced with jQuery and many open-source packages.",
       "level":"50%"
     },
     {
       "name":"Mobile Apps",
-      "description": "A first-rate mobile app is a key component of most projects. Depending on the requirements, this can range from native iOS and Android to cross-platform React Native or an Ionic hybrid.",
+      "description": "A first-class mobile app is a key component of many projects. I am skilled in native iOS as wells as cross-platform React Native and Ionic hybrid apps.",
       "level":"90%"
     },
     {
       "name":"Cloud Services",
-      "description": "Typically this involves a combination Amazon Web Services with legacy integration or migration as needed. For new projects, I recommend serverless using on-demand AWS services including Amplify, AppSync, DynamoDB and Lambda for rapid development and scalability.",
+      "description": "I am skilled in developing for most of the core Amazon Web and Google web services as well as integrating with or migrating from legacy systems.  For new projects, I recommend serverless, on-demand AWS services including Amplify, AppSync, DynamoDB and Lambda for rapid development and scalability.",
       "level":"80%"
     },
     {
       "name":"Domain Expertise",
-      "description": "I have  broad range of domain expertise ranging from field workforce automation, mapping, e-commerce, transaction taxes, analytics and data-visualization.",
+      "description": "I have  broad range of domain expertise ranging from workforce automation, document management, mapping, e-commerce, transaction taxes, analytics and data-visualization.",
       "level":"50%"
     },
     {
       "name":"Languages",
-      "description": "My current favorite language is TypeScript, but I also have a lot of experience in Java, Swift, Ruby, Javascript and C#. It seems like every project involved at least one new language. I'm also learning Spanish!",
+      "description": "My current favorite language is TypeScript, but I am experienced in Java, Javascript, Swift, Ruby and C#. It seems like every project involved at least one new language. I'm also learning Spanish!",
       "level":"80%"
     },
     {
       "name":"Tools & Services",
-      "description": "My favorite tools include JetBrains WebStorm, IntelliJ, RubyMine, XCode, & Photoshop. Testing tools like Jest, Cypress, BrowserStack, and Postman are critical.  I also depend on collaborative services like GitHub, LucidChart, Jira, Trello, & Slack.",
+      "description": "My favorite tools include JetBrains WebStorm, IntelliJ, RubyMine, XCode, Visual Code & Photoshop. Testing tools like Jest, Cypress, BrowserStack, and Postman are invaluable.  I also depend on collaborative services like GitHub, LucidChart, Jira, Trello, & Slack.",
       "level":"55%"
     },
     {
       "name":"Team Building and Leadership",
-      "description": "My team experience and skill-set range from independent projects to leading internationally-distributed teams. I've helped hire and build startup teams and managed onsite and remote teams in India and Central America.",
+      "description": "My team experience and skill-set range from independent projects to leading globally-distributed teams. I've helped hire and build startup teams and managed onsite and remote teams in India and Central America.",
       "level":"55%"
     },
   ]
