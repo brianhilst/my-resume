@@ -7,10 +7,10 @@ const resumeData = {
     "image":"brian-hilst.jpg",
     "logo": "purposeful-logo.png",
     "bio":"I am a versatile, full-stack software engineer and architect.  My specialty is responsive web and mobile applications running on AWS.  My stack-of-choice is React JS/Native or iOS with a backend running on Amazon Web Services.  Please see my resume and full skill set below for more information.",
-    "bio2":"I own and operate Purposeful Software LLC, a Washington licensed and insured development business.",
+    "bio2":"I own and operate Purposeful Software LLC, a Washington licensed and insured business.",
     "contactmessage":"Contact me if you are looking for beautifully designed and implemented software at a fair price.",
     "email": "brian@purposefulsoftware.com",
-    "phone": "206-855-7927",
+    "phone": "(206) 552-9478",
     "address":{
     "street":"8150 Hansen Road NE",
       "city":"Seattle",
