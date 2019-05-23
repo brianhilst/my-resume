@@ -18,18 +18,28 @@ class Resume extends Component<IResumeProps> {
         <p className="info">{education.degree}</p>
         <p>{education.description}</p></div>
       })
+
       var work = data.work.map((work: any) => {
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
         </div>
       })
+
       var skills = data.skills.map((skills: any) => {
         // var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}>
                 <em>{skills.name}</em>
                 <p>{skills.description}</p>
           </li>
+      })
+
+      var expertise = data.expertise.map((expertise: any) => {
+        // var className = 'bar-expand '+skills.name.toLowerCase();
+        return <li key={expertise.name}>
+          <em>{expertise.name}</em>
+          <p>{expertise.description}</p>
+        </li>
       })
     }
 
@@ -52,11 +62,27 @@ class Resume extends Component<IResumeProps> {
           </div>
 
           <div className="nine columns main-col">
-            <p>{skillmessage}</p>
+            {/*<p>{skillmessage}</p>*/}
 
             <div className="bars">
               <ul className="skills">
                 {skills}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="row skill">
+          <div className="three columns header-col">
+            <h1><span>Expertise</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {/*<p>{skillmessage}</p>*/}
+
+            <div className="bars">
+              <ul className="skills">
+                {expertise}
               </ul>
             </div>
           </div>

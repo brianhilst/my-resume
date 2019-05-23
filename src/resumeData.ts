@@ -101,51 +101,61 @@ const resumeData = {
       "description":"Worked as a Core Technologies Team Lead and Pagemaker Graphics Team Lead contributing to products such as PageMaker and other desktop graphics applications"
     },
   ],
-    "skillmessage":"Here is a summary of my top skills.",
-    "skills":[
-    {
-      "name":"Software Design & Planning",
-      "description": "I am skilled in design and planning of large-scale, enterprise systems as well as smaller web/mobile applications. I practice iterative software design and implementation focused on getting an MVP (Minimum Viable Product) to market quickly to test the design and market in the real world.  I believe in designing and testing for scale from the ground-up.  I utilize collaborative design tools such as LucidChart and InVision and project management tools such as Trello and Jira.",
-      "level":"60%"
-    },
-    {
-      "name":"Web Apps",
-      "description": "An effective web application is necessary to promote and convert visitors to customers. Mobile responsiveness is critical for most applications. My preferred frameworks are React JS and Angular for their large developer community and broad support. I'm also experienced with jQuery and many open-source packages.",
-      "level":"50%"
-    },
-    {
-      "name":"Mobile Apps",
-      "description": "A first-class mobile app is a key component of many projects. I am skilled in native iOS as wells as cross-platform React Native and Ionic hybrid apps.",
-      "level":"90%"
-    },
-    {
-      "name":"Cloud Services",
-      "description": "I am skilled in developing for most of the core Amazon Web and Google web services as well as integrating with or migrating from legacy systems.  For new projects, I recommend serverless, on-demand AWS services including Amplify, AppSync, DynamoDB and Lambda for rapid development and scalability.",
-      "level":"80%"
-    },
-    {
-      "name":"Domain Expertise",
-      "description": "I have  broad range of domain expertise ranging from workforce automation, document management, mapping, e-commerce, transaction taxes, analytics and data-visualization.",
-      "level":"50%"
-    },
+  "skillmessage":"Here is a summary of my top skills.",
+  "skills":[
     {
       "name":"Languages",
-      "description": "My current favorite language is TypeScript, but I am experienced in Java, Javascript, Swift, Ruby and C#. It seems like every project involved at least one new language. I'm also learning Spanish!",
-      "level":"80%"
+      "description": "TypeScript, JavaScript, Java, Ruby, C#"
     },
     {
-      "name":"Tools & Services",
-      "description": "My favorite tools include JetBrains WebStorm, IntelliJ, RubyMine, XCode, Visual Code & Photoshop. Testing tools like Jest, Cypress, BrowserStack, and Postman are invaluable.  I also depend on collaborative services like GitHub, LucidChart, Jira, Trello, & Slack.",
-      "level":"55%"
+      "name": "Frameworks/Libraries",
+      "description": "React, AngularJS, jQuery, Spring, Rails, .NET, Stripe"
     },
     {
-      "name":"Team Building and Leadership",
-      "description": "My team experience and skill-set range from independent projects to leading globally-distributed teams. I've helped hire and build startup teams and managed onsite and remote teams in India and Central America.",
-      "level":"55%"
+      "name": "Database",
+      "description": "DynamoDB, PostgreSQL, Microsoft SQL Server, MySQL"
     },
-  ]
+    {
+      "name": "Cloud",
+      "description": "AWS (Amplify, AppSync, DynamoDB, Lambda, Elastic Beanstalck/EC2, S3, Cognito, Route53...), Serverless Framework, Docker"
+    },
+    {
+      "name": "Mobile",
+      "description": "Swift, React Native"
+    },
+    {
+      "name": "Tools",
+      "description": "JetBrains WebStorm, IntelliJ, Eclipse, RubyMine, XCode, Visual Code & Photoshop"
+    },
+    {
+      "name": "Testing",
+      "description": "Jest, Cypress, JUnit, BrowserStack, Postman"
+    },
+    {
+      "name": "DevOps",
+      "description": "Codeship, Papertrail, PagerDuty, Jenkins"
+    },
+    {
+      "name": "Collaboration",
+      "description": "GitHub, Jira, Trello, Slack, LucidChart, Google Docs"
+    },
+  ],
+  "expertise": [
+    {
+      "name": "Project Leadership",
+      "description": "I have built and led teams ranging from small startups to large, globally distributed development teams."
+    },
+    {
+      "name": "Architecture",
+      "description": "I have designed commercial software and systems scaleable to millions of transactions per day. I am a propoent of microservices, and on-demand, scalability using cloud services such as AWS Lambda."
+    },
+    {
+      "name": "Domains",
+      "description": "Mapping, Data-visualization, Workforce automation, Document management, E-commerce, Transaction/sales tax, Health care"
+    },
+  ],
 },
-  "portfolio":{
+"portfolio":{
   "projects": [
     {
       "title":"SnapGig.com",
