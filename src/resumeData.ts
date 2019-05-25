@@ -3,7 +3,7 @@ const resumeData = {
     "title": "Purposeful Software",
     "name":"Brian Hilst",
     "occupation":"Software Developer & Architect",
-    "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and crafted software. I choose to work as a consultant for the wide variety of projects, ideas and people with which I get to work.",
+    "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and crafted software. I choose to work as a consultant for the wide variety of projects, ideas and people with which I am fortunate to work.",
     "image":"brian-hilst.jpg",
     "logo": "purposeful-logo.png",
     "bio":"I am a versatile, full-stack software engineer and architect.  My specialty is responsive web and mobile applications running on AWS.  My stack-of-choice is React JS/Native or iOS with a backend running on Amazon Web Services.  Please see my resume and full skill set below for more information.",
@@ -62,43 +62,57 @@ const resumeData = {
       "company":"SnapGig Inc - Spokane, WA",
       "title":"Software Architect and Senior Developer",
       "years":"2018 - Present",
-      "description":"Architect and senior developer for a gig-economy startup. Designed and developed on a stack using React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS. A React Native app is in the works."
+      "info": "SnapGig is a bootstrapped startup and marketplace for the gig economy.",
+      "description":"I was hired to design and develop SnapGig’s primary product, a responsive web app that serves as a marketplace to connect service providers with buyers. I also am building the product’s mobile version in React Native (currently in development).",
+      "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS"
     },
     {
       "company":"Sears Home Services - Seattle, WA",
       "title":"Software Architect and Senior Developer",
       "years":"2015 - 2018",
-      "description":"Designed and built iOS apps providing routing, navigation, service order management, service manuals, and other functionality for their 7000+ field technicians. Developed a web application for management of the mobile app utilizing Angular, Spring Framework and Java."
+      "info": "Sears Home Services provides appliance repair, home improvement, and maintenance services to 7M customers every year.",
+      "description":"In this role I designed and built multiple iOS apps in Swift and Ionic used by Sears Home Services’ 7000+ field technicians for routing, navigation, service order management, accessing service manuals, and other functionality. I also built a Java web application that lets internal staff manage the mobile product, adjust pricing, and access field data.",
+      "stack": "Swift, Angular, Ionic, Java, Spring Framework"
     },
     {
       "company":"SamePage Health - Seattle, WA",
-      "title":"Software Architect and Senior Developer",
+      "title":"Lead Architect/Developer",
       "years":"2014 - 2015",
-      "description":"Director of development for a SaaS-based collaborative health care application providing tools to health care organization for managing patient outcomes and behavioral change. This solution utilizes Ruby on Rails, AngularJS, Postgres, and AWS to deliver responsive web-based tools.  Built REST APIs for AngularJS and mobile clients."
+      "info": "SamePage Health was an early stage angel-funded startup that provided a SaaS for professionals treating patients with multiple behavioral health and medical conditions.",
+      "description":"I served in a de facto Director of Development role managing a team of two full-time developers in building responsive web-based tools and REST APIs for AngularJS and mobile clients.",
+      "stack": "Ruby on Rails, AngularJS, Postgres, AWS, REST APIs"
     },
     {
       "company":"Netmotion Wireless - Seattle, WA",
       "title":"Senior Consultant",
       "years":"2013 - 2014",
-      "description":"Designed and implemented a mapping web application to display mobile device connectivity and tracking data used to troubleshoot mobile workforces such as police and fire departments.  The solution utilized Bing Maps, ASP.NET, REST, C#, and MySql technologies.  Product was delivered and released on schedule."
+      "info": "Netmotion Software provides products and services to support mobile workforces.",
+      "description":"At Netmotion I designed and implemented a mapping web app that displayed mobile device connectivity and tracking data used to troubleshoot mobile workforces (e.g. police, fire departments). This product was delivered and released on schedule.",
+      "stack": "ASP.NET, Javascript, Bing Maps, REST, C#, MySQL"
     },
     {
       "company":"Avalara Inc - Seattle, WA",
       "title":"Chief Architect / Principal Software Developer",
       "years":"2004 - 2013",
-      "description":"Founding team member, software architect and principal developer of Avalara’s industry-leading, SaaS, transactional tax service handling over a million transactions per day. Key technologies included SQL Server, Microsoft.NET, C#, Java."
+      "info": "Avalara (NYSE: AVLR) provides a SaaS product for automated tax compliance. The company went public in 2018.",
+      "description": "At Avalara I was a member of the founding team, serving as a software architect and the principal developer of their industry-leading SaaS product that handled over a million transactions per day. I rebuilt the initial prototype VB.NET SaaS product for scale in C# with additional SDKs for .NET and Java. I also had hiring and management responsibility for a distributed team in the US and India. My final role at Avalara focused on leading development of the tax content management system that managed geospatial, tax rate, and rule data for the US and EU.",
+      "stack": ".NET, C#, Java, Microsoft SQL Server"
     },
     {
       "company":"Rainwave Technologies - Bellevue, WA",
       "title":"Owner / Principal Software Developer",
       "years":"1996 - 2004",
-      "description":"Operated my own consulting agency working on web and desktop clients for companies such as Autonomy Interwoven & FrontOffice Technologies"
+      "info": "Rainwave was my independent technical consulting firm.",
+      "description":"My project focus during this time included building web and desktop clients for companies that included Autonomy Interwoven and FrontOffice Technologies.",
+      "stack": ""
     },
     {
       "company":"Adobe Systems / Aldus Corp - Seattle, WA",
       "title":"Principal Software Developer",
       "years":"1990 - 1995",
-      "description":"Worked as a Core Technologies Team Lead and Pagemaker Graphics Team Lead contributing to products such as PageMaker and other desktop graphics applications"
+      "info": "Adobe (NASDAQ: ADBE) is a Fortune 500 software provider.",
+      "description":"At Adobe I was a Team Lead for both Core Technologies and Pagemaker Graphics, contributing to the development of multiple products including PageMaker and other desktop graphics applications.",
+      "stack": ""
     },
   ],
   "skillmessage":"Here is a summary of my top skills.",

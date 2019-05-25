@@ -20,9 +20,13 @@ class Resume extends Component<IResumeProps> {
       })
 
       var work = data.work.map((work: any) => {
-        return <div key={work.company}><h3>{work.company}</h3>
-            <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+        return <div key={work.company}>
+            <h3>{work.company}</h3>
+            <p className="title">{work.title} <span>&bull;</span> <em className="date">{work.years}</em></p>
+            <p className="info">{work.info}</p>
             <p>{work.description}</p>
+            {work.stack && <p><b>Tech stack:</b> {work.stack}</p> }
+            <br/>
         </div>
       })
 
