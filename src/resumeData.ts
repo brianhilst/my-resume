@@ -5,7 +5,7 @@ const resumeData = {
     "occupation":"Software Developer & Architect",
     "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and crafted software. I choose to work as a consultant for the wide variety of projects, ideas and people with which I am fortunate to work.",
     "image":"brian-hilst.jpg",
-    "logo": "purposeful-logo.png",
+    "logo": "purposeful-software-logo.png",
     "bio":"I am a versatile, full-stack software engineer and architect.  My specialty is responsive web and mobile applications running on AWS.  My stack-of-choice is React JS/Native or iOS with a backend running on Amazon Web Services.  Please see my resume and full skill set below for more information.",
     "bio2":"I own and operate Purposeful Software LLC, a Washington licensed and insured business.",
     "contactmessage":"Contact me if you are looking for beautifully designed and implemented software at a fair price.",
