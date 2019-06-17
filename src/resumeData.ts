@@ -6,7 +6,7 @@ const resumeData = {
     "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and crafted software. I choose to work as a consultant for the wide variety of projects, ideas and people with which I am fortunate to work.",
     "image":"brian-hilst.jpg",
     "logo": "purposeful-software-logo.png",
-    "bio":"I am a versatile, full-stack software engineer and architect.  My specialty is responsive web and mobile applications running on AWS.  My stack-of-choice is React JS/Native or iOS with a backend running on Amazon Web Services.  Please see my resume and full skill set below for more information.",
+    "bio":"I am dedicated to bringing web or mobile application visions to life.  I bring a unique blend of passion and experience to every project, whether you are a small non-profit organization, a Fortune 500 company, or somewhere in-between.  I take the time to understand your needs and determine how best to deliver it within your budget and timeframe.  My depth and breadth of experience will help choose the optimal approach for your unique product and provide expert assistance from design to deployment.",
     "bio2":"I own and operate Purposeful Software LLC, a Washington licensed and insured business.",
     "contactmessage":"Contact me if you are looking for beautifully designed and implemented software at a fair price.",
     "email": "brian@purposefulsoftware.com",
@@ -52,9 +52,10 @@ const resumeData = {
     },
     {
       "school":"Continuing Education",
-      "degree":"Conferences, online courses, and books",
+      "degree":"Conferences, online courses, meetups, and books",
       "graduated":"",
-      "description":"I keep current with software technologies and development practices. My latest reads are Clean Architecture by Robert Martin and Start Small, Stay Small by Rob Walling."
+      "description":"Online courses in React, Angular, Typescript, iOS/Swift, Java \n" +
+        "Recent Books: Clean Architecture by Robert Martin and Start Small, Stay Small by Rob Walling."
     }
   ],
     "work":[
@@ -72,7 +73,7 @@ const resumeData = {
       "years":"2015 - 2018",
       "info": "Sears Home Services provides appliance repair, home improvement, and maintenance services to 7M customers every year.",
       "description":"In this role I designed and built multiple iOS apps in Swift and Ionic used by Sears Home Services’ 7000+ field technicians for routing, navigation, service order management, accessing service manuals, and other functionality. I also built a Java web application that lets internal staff manage the mobile product, adjust pricing, and access field data.",
-      "stack": "Swift, Angular, Ionic, Java, Spring Framework"
+      "stack": "Swift, Angular, Ionic, Java, Spring Framework, AWS, PostgreSQL"
     },
     {
       "company":"SamePage Health - Seattle, WA",
@@ -109,7 +110,7 @@ const resumeData = {
     {
       "company":"Adobe Systems / Aldus Corp - Seattle, WA",
       "title":"Principal Software Developer",
-      "years":"1990 - 1995",
+      "years":"1990 - 1996",
       "info": "Adobe (NASDAQ: ADBE) is a Fortune 500 software provider.",
       "description":"At Adobe I was a Team Lead for both Core Technologies and Pagemaker Graphics, contributing to the development of multiple products including PageMaker and other desktop graphics applications.",
       "stack": ""
@@ -119,11 +120,11 @@ const resumeData = {
   "skills":[
     {
       "name":"Languages",
-      "description": "TypeScript, JavaScript, Java, Ruby, C#"
+      "description": "TypeScript, JavaScript, Java, Swift, Ruby, C#"
     },
     {
       "name": "Frameworks/Libraries",
-      "description": "React, AngularJS, jQuery, Spring, Rails, .NET, Stripe"
+      "description": "React, Angular, Node.js, Spring, Play, Rails, .NET, Stripe, Material-UI, Bootstrap"
     },
     {
       "name": "Database",
@@ -131,23 +132,23 @@ const resumeData = {
     },
     {
       "name": "Cloud",
-      "description": "AWS (Amplify, AppSync, DynamoDB, Lambda, Elastic Beanstalck/EC2, S3, Cognito, Route53...), Serverless Framework, Docker"
+      "description": "AWS (Amplify, AppSync, DynamoDB, RDS, Lambda, Elastic Beanstalck/EC2, S3, Cognito, Route53...), Serverless Framework"
     },
     {
       "name": "Mobile",
-      "description": "Swift, React Native"
+      "description": "Swift, React Native, Ionic"
     },
     {
       "name": "Tools",
-      "description": "JetBrains WebStorm, IntelliJ, Eclipse, RubyMine, XCode, Visual Code & Photoshop"
+      "description": "JetBrains WebStorm, IntelliJ IDEA, XCode, Eclipse, RubyMine, Visual Code & Visual Studio"
     },
     {
       "name": "Testing",
-      "description": "Jest, Cypress, JUnit, BrowserStack, Postman"
+      "description": "Jest, Cypress, Jasmine, Mocha, JUnit, BrowserStack, Postman"
     },
     {
       "name": "DevOps",
-      "description": "Codeship, Papertrail, PagerDuty, Jenkins"
+      "description": "AWS Amplify, Docker, Codeship, Gradle, Maven, Jenkins, Ansible, Papertrail, PagerDuty, Splunk, New Relic, Google Analytics"
     },
     {
       "name": "Collaboration",
@@ -156,16 +157,16 @@ const resumeData = {
   ],
   "expertise": [
     {
-      "name": "Project Leadership",
-      "description": "I have built and led teams ranging from small startups to large, globally distributed development teams."
+      "name": "Architecture",
+      "description": "I have designed commercial software and systems from small business to enterprise applications scalable to millions of transactions per day. I am a proponent of clean architecture, micro-services, and on-demand, scalability using cloud services such as AWS Lambda."
     },
     {
-      "name": "Architecture",
-      "description": "I have designed commercial software and systems scaleable to millions of transactions per day. I am a propoent of microservices, and on-demand, scalability using cloud services such as AWS Lambda."
+      "name": "Project Leadership",
+      "description": "I have hired and led teams ranging from small startups to large, globally distributed development teams."
     },
     {
       "name": "Domains",
-      "description": "Mapping, Data-visualization, Workforce automation, Document management, E-commerce, Transaction/sales tax, Health care"
+      "description": "Mapping, Data-visualization, Workforce automation, Service Marketplaces, SaaS, Document management, E-commerce, Transaction/sales tax, Health care"
     },
   ],
 },
