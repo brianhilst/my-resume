@@ -1,14 +1,14 @@
 const resumeData = {
   "main": {
-    "title": "Purposeful Software",
+    "title": "Purposeful Software LLC",
     "name":"Brian Hilst",
     "occupation":"software developer & architect",
-    "description":"With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and crafted software. Clients choose me because I care and have the experience to deliver.",
+    "description":"I'm Brian Hilst, a Seattle-based software engineer and architect doing business as Purposeful Software. With a depth of experience ranging from large-scale enterprise architecture to responsive web and mobile applications, I am passionate about creating great user experiences through beautifully designed and crafted software. Clients choose me because I care and have the experience to deliver.",
     "image":"brian-hilst.jpg",
     "logo": "purposeful-software-logo-stacked-white-letters-395x285.png",
     "logoAlt": "purposeful-software-logo-white-letters-600x222.png",
-    "bio":"I am dedicated to bringing web or mobile application visions to life.  I bring a unique blend of passion and experience to every project, whether you are a small non-profit organization, a Fortune 500 company, or somewhere in-between.  I take the time to understand your needs and determine how best to deliver it within your budget and timeframe.  My depth and breadth of experience will help choose the optimal approach for your unique product and provide expert assistance from design to deployment.",
-    "companyPurpose": "To develop software with determination and resolve that makes a positive impact in the world.",
+    "bio":"I bring a unique blend of passion and experience to every project, whether you are a small non-profit organization, a Fortune 500 company, or somewhere in-between.  I take the time to understand your needs and determine how best to deliver it within your budget and timeframe.  My depth and breadth of experience will help you choose the optimal approach for your unique product and provide expert assistance from design to deployment.",
+    "companyPurpose": "Making a positive impact in the world through great software...",
     "companyInfo": "Purposeful Software LLC is a Washington licensed and insured business.",
     "contactmessage":"Contact me if you are looking for beautifully designed and implemented software at a fair price.",
     "email": "brian@purposefulsoftware.com",

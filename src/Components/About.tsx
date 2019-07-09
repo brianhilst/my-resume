@@ -13,8 +13,11 @@ class About extends Component<IAboutProps> {
       return null
     } else {
       var name = data.name
+      var title = data.title
       var profilepic= "images/"+data.image
       var logopic= "images/"+data.logoAlt
+      var occupation = data.occupation
+      var description = data.description
       var bio = data.bio
       var companyPurpose = data.companyPurpose
       var companyInfo = data.companyInfo
@@ -31,27 +34,22 @@ class About extends Component<IAboutProps> {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="logo-pic"  src={logopic} alt="Purposeful Logo" />
-          </div>
-          <div className="nine columns main-col">
-            <h2>About Purposeful Software</h2>
-            <p><b>pur·pose·ful soft·ware</b> - <em>{companyPurpose}</em></p>
-            <p>{companyInfo}</p>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Brian Hilst Profile" />
+            <div className="centered" style={{textAlign: "center"}}>
+              <img className="profile-pic"  src={profilepic} alt="Brian Hilst Profile" />
+              <img className="logo-pic"  src={logopic} alt="Purposeful Logo" />
+            </div>
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
+            <p>{description}</p>
             <p>{bio}</p>
+            <br/>
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
                   <span>{name}</span><br />
+                  <span>{title}</span><br/>
                   {/*<span>{street}</span><br />*/}
                   <span>{city}, {state} {zip}</span><br />
                   <span>{phone}</span><br />

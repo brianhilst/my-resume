@@ -68,6 +68,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'opensans', sans-serif;
+   font-style: italic;
    /*font: 18px/1.9em 'librebaskerville-reguler', serif;*/
    color: #FFFFFF;
    margin: 0 auto;
@@ -219,7 +220,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
    width: 215px;
    height: 80px;
-   margin-top: 50px;
+   margin-top: 300px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {

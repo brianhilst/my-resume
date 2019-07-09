@@ -14,6 +14,7 @@ class Header extends Component<IHeaderProps> {
     } else {
       var title = this.props.data.title
       var logopic= "images/"+data.logo
+      var companyPurpose = data.companyPurpose
       var name = this.props.data.name
       var occupation= this.props.data.occupation
       var description= this.props.data.description
@@ -46,7 +47,9 @@ class Header extends Component<IHeaderProps> {
             <h1 className="responsive-headline">
               <img className="logo-pic"  src={logopic} alt="Purposeful Logo" />
             </h1>
-            <h3>I'm <span style={{fontWeight:800, color:"#ff9b00"}}>{name},</span>, a {city}-based <span>{occupation}</span> doing business as <span style={{fontWeight:800, color:"#ff9b00"}}>{title}</span>. {description}</h3>
+            <h3>{companyPurpose}</h3>
+            {/*<h3>I'm <span style={{fontWeight:800, color:"#ff9b00"}}>{name},</span>, a {city}-based <span>{occupation}</span> doing business as <span style={{fontWeight:800, color:"#ff9b00"}}>{title}</span>. {description}</h3>*/}
+            <br/>
             <hr />
             <ul className="social">
               {networks}
