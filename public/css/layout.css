@@ -34,7 +34,7 @@ header {
    min-height: 500px;
    width: 100%;
    background: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2)),
-               url(../images/backgrounds/IMG_3570.jpg) no-repeat top center;
+               url(../images/backgrounds/hero-photo-1111786439.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -213,12 +213,13 @@ ul#nav li.current a { color: #F06000; }
    width: 114px;
    height: 114px;
    border-radius: 100%;
+   margin-top: 50px;
 }
 #about .logo-pic {
    position: relative;
    width: 215px;
-   height: 45px;
-   margin-top: 35px;
+   height: 80px;
+   margin-top: 50px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {

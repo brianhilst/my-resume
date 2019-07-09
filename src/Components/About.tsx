@@ -14,9 +14,10 @@ class About extends Component<IAboutProps> {
     } else {
       var name = data.name
       var profilepic= "images/"+data.image
-      var logopic= "images/"+data.logo
+      var logopic= "images/"+data.logoAlt
       var bio = data.bio
-      var bio2 = data.bio2
+      var companyPurpose = data.companyPurpose
+      var companyInfo = data.companyInfo
       var street = data.address.street
       var city = data.address.city
       var state = data.address.state
@@ -30,13 +31,22 @@ class About extends Component<IAboutProps> {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Brian Hilst Profile" />
             <img className="logo-pic"  src={logopic} alt="Purposeful Logo" />
+          </div>
+          <div className="nine columns main-col">
+            <h2>About Purposeful Software</h2>
+            <p><b>pur·pose·ful soft·ware</b> - <em>{companyPurpose}</em></p>
+            <p>{companyInfo}</p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="three columns">
+            <img className="profile-pic"  src={profilepic} alt="Brian Hilst Profile" />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>{bio}</p>
-            <p>{bio2}</p>
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
