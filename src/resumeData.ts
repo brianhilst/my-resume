@@ -61,6 +61,14 @@ const resumeData = {
     }
   ],
     "work":[
+      {
+        "company":"SecureStatus.co - Poulsbo, WA",
+        "title":"Software Architect and Lead Developer",
+        "years":"2019 - Present",
+        "info": "SecureStatus.co is a startup providing a secure messaging platform for CPAs and other professionals.",
+        "description":"I am an owner and primary developer for this startup.  I am responsible for architecture and development of a React web app and backend using AWS Amplify.  This rapid development platform has enabled a product launch in under 2 months.",
+        "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS"
+      },
     {
       "company":"SnapGig Inc - Spokane, WA",
       "title":"Software Architect and Senior Developer",
