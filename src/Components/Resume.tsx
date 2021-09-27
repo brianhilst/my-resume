@@ -21,7 +21,8 @@ class Resume extends Component<IResumeProps> {
 
       var work = data.work.map((work: any) => {
         return <div key={work.company}>
-            <h3>{work.company}</h3>
+            {!work.url && <h3>{work.company}</h3>}
+            {work.url && <h3><a href={work.url} target="_blank">{work.company}</a></h3>}
             <p className="title">{work.title} <span>&bull;</span> <em className="date">{work.years}</em></p>
             <p className="info">{work.info}</p>
             <p>{work.description}</p>

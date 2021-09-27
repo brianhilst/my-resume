@@ -62,15 +62,44 @@ const resumeData = {
   ],
     "work":[
       {
+        "company":"GovGig.us - Poulsbo, WA",
+        "url": "https://govgig.us",
+        "title":"Software Architect and Principal Developer",
+        "years":"2021 - Present",
+        "info": "GovGig is new job platform for federal construction contractors providing job posting and applicant tracking services.",
+        "description":"Working with my partners at HeroicDevelopment.com, I am an owner and principal developer for this startup, responsible for design and development of a React web app and backend using AWS Amplify.",
+        "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS"
+      },
+      {
+        "company":"Givinci.org - Bainbridge Island, WA",
+        "url": "https://givinci.org",
+        "title":"Software Architect and Lead Developer",
+        "years":"2021 - Present",
+        "info": "Givinci is an online fundraising platform providing a unique gamified approach to fundraising.",
+        "description":"I am the owner and primary developer for this startup, responsible for design and development of a React web app and backend using AWS Amplify.",
+        "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS"
+      },
+      {
+        "company":"HazmatAndRescue.com - Tacoma, WA",
+        "url": "https://hazmatandrescue.com",
+        "title":"Software Architect and Lead Developer",
+        "years":"2020 - Present",
+        "info": "Hazmat & Rescue provides online hazardous materials response training courses to fire departments and other agencies.",
+        "description":"Working with my partners at HeroicDevelopment.com, I am the architect and primary developer for this startup, responsible for design and development of a React web app and backend using AWS Amplify.",
+        "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS, Stripe"
+      },
+      {
         "company":"SecureStatus.co - Poulsbo, WA",
+        "url": "https://securestatus.co",
         "title":"Software Architect and Lead Developer",
         "years":"2019 - Present",
         "info": "SecureStatus.co is a startup providing a secure messaging platform for CPAs and other professionals.",
-        "description":"I am an owner and the primary developer for this startup.  I am responsible for design and development of a React web app and backend using AWS Amplify.  This rapid development platform has enabled a product launch in under 2 months.",
-        "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS"
+        "description":"Working with my partners at HeroicDevelopment.com, I am an owner and the primary developer for this startup.  I am responsible for design and development of a React web app and backend using AWS Amplify.  This rapid development platform has enabled a product launch in under 2 months.",
+        "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS, Stripe"
       },
     {
       "company":"SnapGig Inc - Spokane, WA",
+      "url": "https://snapgig.com",
       "title":"Software Architect and Senior Developer",
       "years":"2018 - Present",
       "info": "SnapGig is a bootstrapped startup and marketplace for the gig economy.",
