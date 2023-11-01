@@ -71,11 +71,11 @@ const resumeData = {
         "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS"
       },
       {
-        "company":"Givinci.org - Bainbridge Island, WA",
-        "url": "https://givinci.org",
+        "company":"FunGives.org - Bainbridge Island, WA",
+        "url": "https://fungives.org",
         "title":"Software Architect and Lead Developer",
         "years":"2021 - Present",
-        "info": "Givinci is an online fundraising platform providing a unique gamified approach to fundraising.",
+        "info": "FunGives is an online fundraising platform providing a unique gamified approach to fundraising.",
         "description":"I am the owner and primary developer for this startup, responsible for design and development of a React web app and backend using AWS Amplify.",
         "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS"
       },
@@ -87,6 +87,15 @@ const resumeData = {
         "info": "Hazmat & Rescue provides online hazardous materials response training courses to fire departments and other agencies.",
         "description":"Working with my partners at HeroicDevelopment.com, I am the architect and primary developer for this startup, responsible for design and development of a React web app and backend using AWS Amplify.",
         "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS, Stripe"
+      },
+      {
+        "company":"RetirementBudgetCalculator.com - Washington",
+        "url": "https://retirementbudgetcalculator.com",
+        "title":"Software Architect and Lead Developer",
+        "years":"2019 - Present",
+        "info": "Retirement Budget Calculator can help you estimate your budget, life expectancy, net worth, taxes, withdrawal strategies, Roth conversions and ultimately answer the question: can I retire?",
+        "description":"I am the architect and lead developer for this application, responsible for design and development of a React web app and backend using AWS Amplify.",
+        "stack": "React JS/Typescript, AWS Amplify, AppSync, DynamoDB, Cognito, S3, SES, SNS"
       },
       {
         "company":"SecureStatus.co - Poulsbo, WA",
